@@ -35,7 +35,7 @@
 	<div id="banners">
 		<a href="ShowSpecials.action"><div id="banner-1" class="banner-small rounded-corners" style="background-image: url('<%=kkEng.getImageBase()%>/banners/home-page/electronics-sale.jpg');"></div></a>
 		<a href="SelectCat.action?catId=24"><div id="banner-2" class="banner-small rounded-corners" style="background-image: url('<%=kkEng.getImageBase()%>/banners/home-page/gifts-for-the-home.jpg');"></div></a>
-		<p> Welcome to Konakart Site..</p>
+		<p> Welcome to Konakart Website..</p>
 		<%if ((int) (Math.random() * 100) > 50) { %>
 		<a href="SelectProd.action?prodId=32"><div id="banner-2" class="banner-small rounded-corners" style="background-image: url('<%=kkEng.getImageBase()%>/banners/home-page/windows-8.jpg');"></div></a>
 		<% } else { %>
