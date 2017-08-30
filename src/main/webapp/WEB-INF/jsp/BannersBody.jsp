@@ -36,7 +36,6 @@
 		<a href="ShowSpecials.action"><div id="banner-1" class="banner-small rounded-corners" style="background-image: url('<%=kkEng.getImageBase()%>/banners/home-page/electronics-sale.jpg');"></div></a>
 		<p> Welcome to Konakart Website....!!!!</p>
 		<h1>Konakart Application opened</h1>
-		<h2>Application closed!!!</h2>
 		<%if ((int) (Math.random() * 100) > 50) { %>
 		<a href="SelectProd.action?prodId=32"><div id="banner-2" class="banner-small rounded-corners" style="background-image: url('<%=kkEng.getImageBase()%>/banners/home-page/windows-8.jpg');"></div></a>
 		<% } else { %>
